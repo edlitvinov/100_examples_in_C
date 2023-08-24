@@ -10,7 +10,8 @@ int main() {
         sum += i;
     }
 
-    printf("Сумма = %d\n", sum);
+    printf("Вы ввели: %d\n", n);
+    printf("Сумма чисел от 1 до %d = %d\n", n, sum);
 
     return 0;
 }
